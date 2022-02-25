@@ -1,0 +1,56 @@
+html{
+    background: lightblue;
+}
+.container{
+    max-width: 350px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+    background: white;
+}
+h1{
+    text-align: center;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: fantasy;
+    background: #ccc;
+    
+}
+.buttons{
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div{
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+.button{
+    border: 0.5px solid #999;
+    line-height: 85px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(151, 118, 118);
+}
+#equal{
+    background-color: rgb(85, 85, 255);
+    color: white;
+}
+
+.button:hover{
+    background-color: #323330;
+    color: white;
+    transition: .5s ease-in-out;
+}
